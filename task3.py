@@ -1,16 +1,36 @@
-from data import num
+from data import a, b, c, d, e, f
 
-#TODO 1 Run this program
-#Let'S debug.
+# Convert each variable to the most suitable data type
+# Hint: print and check type if unsure
+# Not all can or should be converted to a number
 
-#TODO 2 print num
-print(num)
+# a
+print(a)
+print(type(a))
+a = float(a)
 
-#TODO 3 Print the type
-print(type(num))
+# b
+print(b)
+print(type(b))
+b = str(b)
 
-#TODO 4 Convert to the correct data type and reassign to num.
-num=int(num)
+# c
+print(c)
+print(type(c))
+c = int(c)
 
-result = num * 10
-print(result)
+# d
+print(d)
+print(type(d))
+d = int(d)
+
+# e
+print(e)
+print(type(e))
+e = str(e)
+
+# f
+print(f)
+print(type(f))
+f = float(f)
+
